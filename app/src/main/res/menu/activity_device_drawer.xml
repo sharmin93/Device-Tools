@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_Device"
+                android:icon="@drawable/ic_home"
+                android:title="Device"/>
+        <item
+                android:id="@+id/nav_OS"
+                android:icon="@drawable/ic_bug"
+                android:title="OS"/>
+        <item
+                android:id="@+id/nav_CPU"
+                android:icon="@drawable/ic_memory"
+                android:title="CPU"/>
+        <item
+                android:id="@+id/nav_Battery"
+                android:icon="@drawable/ic_battery"
+                android:title="Battery"/>
+        <item
+                android:id="@+id/nav_Storage"
+                android:icon="@drawable/ic_storage"
+                android:title="Storage"/>
+        <item
+                android:id="@+id/nav_Network"
+                android:icon="@drawable/ic_network"
+                android:title="Network"/>
+        <item
+                android:id="@+id/nav_Sensor"
+                android:icon="@drawable/ic_setting"
+                android:title="Sensor"/>
+        <item
+                android:id="@+id/nav_Camera"
+                android:icon="@drawable/ic_camera"
+                android:title="Camera"/>
+        <item
+                android:id="@+id/nav_Feature"
+                android:icon="@drawable/ic_feature"
+                android:title="Feature"/>
+        <item
+                android:id="@+id/nav_UserApps"
+                android:icon="@drawable/ic_android"
+                android:title="User Apps"/>
+        <item
+                android:id="@+id/nav_SystemsApps"
+                android:icon="@drawable/ic_adb"
+                android:title="Systems Apps"/>
+        <item
+                android:id="@+id/nav_AboutUS"
+                android:icon="@drawable/ic_portrait"
+                android:title="About US"/>
+    </group>
+
+    <item android:title="Spread the Word!">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share"/>
+            <item
+                    android:id="@+id/nav_RateUs"
+                    android:icon="@drawable/ic_star"
+                    android:title="Rate US"/>
+            <item
+                    android:id="@+id/nav_Feedback"
+                    android:icon="@drawable/ic_feedback"
+                    android:title="Feedback"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context=".fragment.OsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20sp"
+                  android:background="@drawable/corner"
+                  android:weightSum="2">
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="start"
+                   android:paddingRight="30sp"
+                   android:layout_weight="1"
+                   android:src="@mipmap/ic_icon_launcher"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:text="Kitkat Version"
+                  android:gravity="center"
+                  android:id="@+id/tvtext"/>
+
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginBottom="20sp"
+                          android:layout_marginTop="20sp"
+                          android:weightSum="2">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:text="Version"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:id="@+id/tvVersion"/>
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginBottom="20sp"
+                          android:weightSum="2">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:text="Build Time"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:gravity="center"
+                          android:id="@+id/tvBuildTime"/>
+
+            </LinearLayout> <LinearLayout android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+                                          android:orientation="horizontal"
+                                          android:layout_marginBottom="20sp"
+                                          android:weightSum="2">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:text="API Level"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:id="@+id/tvAPIleevel"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

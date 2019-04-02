@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#eae2e2</color>
+
+    <color name="colorCloseChip">#ababab</color>
+    <color name="white_transparency">#b9ffffff</color>
+    <color name="chip_background">#F3F3F4</color>
+    <color name="chip_details_background">#00B8D4</color>
+    <color name="chip_focused_text_color">#FFFFFF</color>
+    <color name="chip_text_color">#D5C7BBBB</color>
+    <color name="chip_icon_color">#C7C0C0</color>
+    <color name="chips_opened_bg">#1bcc85</color>
+</resources>
